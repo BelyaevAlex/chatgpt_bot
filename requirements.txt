@@ -23,3 +23,4 @@ tzdata==2022.7
 tzlocal==4.2
 urllib3==1.26.14
 yarl==1.8.2
+asyncgpt @ git+https://github.com/Just1z/asyncgpt@7582343e517d8d14fc9d41b88e44b901c202135f

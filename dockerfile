@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10
 
 WORKDIR .
 
@@ -8,4 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./main.py" ]
+ENV PORT 8080
+
+CMD ["sh", "-c", "python ./app.py"]
